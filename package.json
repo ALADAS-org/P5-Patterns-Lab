@@ -1,0 +1,34 @@
+{
+	"name": "@aladas-org/p5-patterns-lab",
+	"version": "0.0.1",
+	"//1": "electron .",
+	"//2": "electron . --enable-logging",
+	"scripts": {
+		"start": "electron ."
+	},
+	"description": "Demo of P5-Patterns.js",
+	"main": "www/js/_main/electron_main.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ALADAS-org/P5-Patterns-Lab.git"
+	},
+	"keywords": [
+		"p5",
+		"pattern",
+		"2D",
+		"grid",
+		"generative",
+		"procedural",
+		"tile"
+	],
+	"author": "Daniel Rodet & Michel Kern",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/ALADAS-org/P5-Patterns-Lab/issues"
+	},
+	"homepage": "https://github.com/ALADAS-org/P5-Patterns-Lab#readme",
+	"//3": "electron 29: regression with 'AutFill' for MacOS",
+	"devDependencies": {
+		"electron": "^28.2.7"
+	}
+}
