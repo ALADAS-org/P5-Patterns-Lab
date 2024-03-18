@@ -155,11 +155,11 @@ if (! gotTheLock) {
 else {
 	app.on('second-instance', (event, commandLine, workingDirectory) => {
 	// Someone tried to run a second instance, we should focus our window.
-	if (ElectronWindow.GetWindow() != null) {
-			if (ElectronWindow.GetWindow()) {
-				ElectronWindow.GetWindow().restore(); 
+	if (ElectronMain.MainWindow != null) {
+			if (ElectronMain.MainWindow) {
+				ElectronMain.MainWindow.restore(); 
 			}
-			ElectronWindow.GetWindow().focus();
+			ElectronMain.MainWindow.focus();
 		}
 	}) // Manage case of second instance
 
