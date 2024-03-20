@@ -1,8 +1,8 @@
 {
 	"name": "@aladas-org/p5-patterns-lab",
-	"version": "0.0.5",
-	"//1": "electron .",
-	"//2": "electron . --enable-logging",
+	"version": "0.0.6",
+	"// .": "electron .",
+	"// :": "electron . --enable-logging",
 	"scripts": {
 		"start": "electron ."
 	},
@@ -27,11 +27,11 @@
 		"url": "https://github.com/ALADAS-org/P5-Patterns-Lab/issues"
 	},
 	"homepage": "https://github.com/ALADAS-org/P5-Patterns-Lab#readme",
-	"//3": "electron 29: regression with 'AutFill' for MacOS",
+	"//:.": "electron 29: regression with 'AutFill' for MacOS",
 	"devDependencies": {
 		"electron": "^28.2.7"
 	},
 	"dependencies": {
-		"@aladas-org/p5-patterns": "^0.0.8"
+		"@aladas-org/p5-patterns": "^0.0.10"
 	}
 }
